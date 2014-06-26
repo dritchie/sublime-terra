@@ -185,7 +185,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(break|do|else|for|if|elseif|return|then|repeat|while|until|end|function|local|in|terra|quote|var|struct|union)\b</string>
+			<string>\b(break|do|else|for|if|elseif|return|then|repeat|while|until|end|function|local|in|terra|quote|escape|var|struct|union)\b</string>
 			<key>name</key>
 			<string>keyword.control.terra</string>
 		</dict>
@@ -194,6 +194,12 @@
 			<string>(?&lt;![^.]\.|:)\b(false|nil|true|_G|_VERSION|math\.(pi|huge))\b|(?&lt;![.])\.{3}(?!\.)</string>
 			<key>name</key>
 			<string>constant.language.terra</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(bool|int8|uint8|int16|uint16|int32|uint32|int64|uint64|int|uint|float|double|opaque|rawstring)\b</string>
+			<key>name</key>
+			<string>storage.type.terra</string>
 		</dict>
 		<dict>
 			<key>match</key>
