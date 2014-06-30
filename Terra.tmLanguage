@@ -185,7 +185,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(break|do|else|for|if|elseif|return|then|repeat|while|until|end|function|local|in|terra|quote|escape|var|struct|union)\b</string>
+			<string>\b(break|do|else|for|if|elseif|return|then|repeat|while|until|end|function|local|in|terra|quote|escape|defer|var|struct|union)\b</string>
 			<key>name</key>
 			<string>keyword.control.terra</string>
 		</dict>
