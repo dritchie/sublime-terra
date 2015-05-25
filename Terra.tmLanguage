@@ -7,6 +7,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>terra</string>
+		<string>t</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>^\s*\b(function|local\s+function|if|for)\b|{[ \t]*$|\[\[</string>
